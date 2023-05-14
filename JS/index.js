@@ -347,8 +347,8 @@ function filtrosCombinados() {
   filtrado.length > 0 ?
     display(filtrado) :
     tarjetasEventos.innerHTML = `
-    <div class="ceroResultado">
-    <h1 class="sinEventos" >No se han encontraron eventos para tu busqueda...</h1>
+    <div class="sinresultado">
+    <h1 class="sinEventos" >No se han encontrado eventos para tu busqueda. Prueba buscando con otras palabras clave.</h1>
     </div>
     `
 }

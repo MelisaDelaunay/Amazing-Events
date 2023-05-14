@@ -58,7 +58,8 @@ input[type="search"] {
 }
 
 ::placeholder {
-    color: rgb(255, 255, 255);
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .search {
@@ -167,7 +168,7 @@ input[type="search"] {
     font-size: 20px;
 }
 
-.ceroResultado {
+.sinresultados {
     width: 700px;
     height: 38vh;
     display: flex;
@@ -177,8 +178,9 @@ input[type="search"] {
 }
 
 .sinEventos {
-    color: black;
+    color: white;
     font-size: 20px;
+    font-family: monospace;
 }
 
 @media screen and (max-width: 689px) {
@@ -223,6 +225,7 @@ input[type="search"] {
     input[type="search"] {
         width: 220px;
         height: 28px;
+
     }
 
     .container_card {
@@ -279,6 +282,7 @@ input[type="search"] {
     input[type="search"] {
         width: 350px;
         height: 35px;
+        
     }
 
     .container_card {
