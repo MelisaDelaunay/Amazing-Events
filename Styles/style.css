@@ -1,0 +1,412 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header,
+.bg-body-tertiary {
+    width: 100%;
+    height: 13vh;
+    background: black;
+}
+
+.bg-body-tertiary {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    margin: 0;
+
+}
+
+.collapse {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 100px;
+}
+
+.imagen_logo img {
+    width: 350px;
+    height: 80px;
+    margin-left: 4%;
+}
+
+.nav_ul {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0px 10px 0px;
+}
+
+.botones {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.botones a {
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid orange;
+    color: orange;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+.botones a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.botones a:active {
+    background-color: rgb(235, 42, 138);
+    color: white;
+    border-color: #780a36;
+}
+
+.cargando {
+    font-size: 30px;
+    color: black;
+}
+
+.home {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.navegacion_tituloDos {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #780a36;
+    height: 16vh;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.74);
+}
+
+.home p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.home a i {
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+    margin: 0px 150px;
+}
+
+.navegacion_tituloDos i {
+    font-size: 145px;
+    font-weight: bolder;
+    text-align: center;
+    color: orange;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+
+.navegacion_tituloDos a {
+    color: orange;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+}
+
+footer {
+    width: 100%;
+    height: 12vh;
+    background: #780a36;
+}
+
+.footer {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.iconos ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.iconos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration-line: none;
+    color: black;
+}
+
+.instagram,
+.facebook,
+.whatsapp {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    margin: 10px 10px;
+    font-size: 45px;
+    padding: 9px 11px 8px 11px;
+    outline: solid transparent 2px;
+    border-radius: 30px;
+}
+
+.iconos .instagram:hover {
+    font-size: 40px;
+    color: white;
+    background: linear-gradient(#ffd500e7, #ff7b00e1, #ff006ae1, #d300c5e0, #7538fad8);
+}
+
+.iconos .facebook:hover {
+    font-size: 40px;
+    color: white;
+    background-color: #2e5bbb;
+}
+
+.iconos .whatsapp:hover {
+    font-size: 40px;
+    color: white;
+    background-color: #28bd2f;
+}
+
+.cohort p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 20px;
+    color: orange;
+    }
+.container-fluid {
+    background-color: black;
+}
+.generalbusqueda {
+    display: flex;
+}
+
+@media screen and (min-width: 690px) and (max-width: 1024px) {
+    .botones {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .botones a {
+        font-size: 15px;
+    }
+
+    .botonesainer {
+        position: fixed;
+        display: none;
+        overflow-y: auto;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 350px;
+        background: green
+    }
+
+    .home p,
+    .navegacion_tituloDos a {
+        font-size: 40px;
+    }
+
+    .home a i {
+        margin: 0px 50px;
+    }
+
+    .copyright {
+        font-size: 11px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+}
+
+
+@media screen and (max-width: 689px) {
+    .navbar-toggler {
+        background: orange;
+    }
+
+    .navbarbotones {
+        margin-top: 130px;
+        width: 150px;
+        height: 200px;
+        --bs-botones-padding-y: 0rem;
+        line-height: 30px;
+        background-color: rgba(212, 210, 208, 0.87);
+        z-index: 10;
+        -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        margin-left: 50%;
+
+    }
+
+    .imagen_logo img {
+        width: 100px;
+        height: 30px;
+    }
+
+    .botones a {
+        font-size: 13px;
+    }
+
+    .nav_ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    header li a {
+        font-size: 12px;
+        text-align: right;
+    }
+
+    .home {
+        width: 100%;
+        height: 150px;
+    }
+
+    .home p,
+    .navegacion_tituloDos a {
+        font-size: 25px;
+    }
+
+    .home a i {
+        font-size: 20px;
+        margin: 0px 30px;
+    }
+
+    .instagram,
+    .facebook,
+    .whatsapp {
+        margin: 0px;
+        font-size: 25px;
+    }
+
+    .iconos .instagram:hover {
+        font-size: 20px;
+    }
+
+    .iconos .facebook:hover {
+        font-size: 20px;
+    }
+
+    .iconos .whatsapp:hover {
+        font-size: 20px;
+    }
+
+    .iconos ul {
+        margin: 0px;
+    }
+
+    .iconos {
+        width: 35%;
+    }
+
+    .Accenture {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        width: 65%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .cohort p {
+        font-size: 12px;
+        margin: 0px 5px;
+    }
+
+    .copyright {
+        font-size: 8px;
+        font-weight: bold;
+        margin: 0px 5px;
+        text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 690px) and (max-width: 980px) {
+
+    .navbar-toggler {
+        background: orange;
+        margin-top: 20px;
+    }
+
+    .navbarbotones {
+        margin-top: 130px;
+        width: 180px;
+        height: 200px;
+        --bs-botones-padding-y: 0rem;
+        line-height: 30px;
+        background-color: rgba(212, 210, 208, 0.87);
+        z-index: 10;
+        -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        margin-left: 80%;
+    }
+
+    .collapsing {
+        right: 10px;
+        height: 0px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+}

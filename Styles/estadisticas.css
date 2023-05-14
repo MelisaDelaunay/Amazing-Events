@@ -1,0 +1,120 @@
+main{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#statsDos{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    margin-bottom: 35px;
+}
+
+.titulo_tabla{
+    color: black;
+    text-align: center;
+    background: orange;
+}
+
+.titulo_tabla th{
+    width: 33%;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+td{
+    width: 33%;
+    color: bisque;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #780a36;
+    padding: 10px 0px;
+}
+
+th{
+    width: 33%;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 10px;
+    border: 4px solid #780a36;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo th{
+    font-weight: bolder;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.tr{
+    color: white,
+
+}
+
+@media screen and (max-width: 689px) {
+    main{
+        height: 75%;
+    }
+
+    table{
+        width: 80%;
+        margin: 30px 0px;
+    }
+
+    .color th{
+        height: 35px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    td{
+        height: 35px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    th{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 1024px) {
+    main{
+        height: 75%;
+    }
+    table{
+        width: 80%;
+        margin: 50px 0px;
+    }
+
+    .titulo th{
+        height: 35px;
+    }
+
+    .color th{
+        font-size: 20px;
+    }
+    td{
+        height: 35px;
+        font-size: 16px;
+    }
+    th{
+        height: 35px;
+        font-size: 17px;
+    }
+}
