@@ -49,9 +49,11 @@ textarea {
     font-size: 25px;
     height: 50px;
 }
-
-::placeholder {
-    color: black;
+input::placeholder {
+    color: orange;
+}
+textarea::placeholder {
+    color: orange;
 }
 
 input {

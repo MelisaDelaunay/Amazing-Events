@@ -12,7 +12,7 @@ header,
 }
 
 .bg-body-tertiary {
-    background-color: black;
+    background-color: black !important;
 }
 
 body {
@@ -218,6 +218,7 @@ footer {
     display: flex;
 }
 
+
 @media screen and (min-width: 690px) and (max-width: 1024px) {
     .botones {
         flex-direction: column;
@@ -351,16 +352,6 @@ footer {
 
     .iconos {
         width: 35%;
-    }
-
-    .Accenture {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        width: 65%;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
     }
 
     .cohort p {
